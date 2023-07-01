@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 const page: FC = () => {
   return (
-    <div className="container h-[calc(100vh-210px)] mx-auto mt-12 max-w-7xl">
+    <div className="container min-h-[calc(100vh-210px)] mx-auto mt-12 max-w-7xl">
       <div className="flex flex-col items-center gap-8">
         <h1 className="text-5xl font-bold">About Us</h1>
         <div className="flex flex-col gap-6 max-w-2xl">

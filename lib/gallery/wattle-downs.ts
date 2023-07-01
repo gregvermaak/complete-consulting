@@ -16,7 +16,6 @@ export const images = [
   },
   {
     id: 4,
-
     src: "/cc-images/wattle-downs/4.jpg",
     alt: "Wattle Downs",
   },

@@ -5,6 +5,7 @@ import "@/styles/globals.css"
 import { Inter } from "next/font/google"
 import type { Metadata } from "next"
 import Footer from "@/components/Footer"
+import SiteHeader from "@/components/SiteHeader"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -25,11 +26,10 @@ export default function RootLayout({
           inter.className
         )}>
         <ThemeProvider>
-          <Navbar />
+          <SiteHeader />
           {children}
           <Footer />
         </ThemeProvider>
-        <div className="h-40 md:hidden" />
       </body>
     </html>
   )

@@ -13,7 +13,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
   return (
     <div className="container mx-auto min-h-screen mt-12 max-w-7xl">
       <div className="flex flex-col items-center gap-8">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {gallery.map(({ id, src, alt }: any) => (
             <Image
               key={id}
